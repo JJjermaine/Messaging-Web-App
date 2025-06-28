@@ -1,0 +1,14 @@
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a8f23740] Starting server...
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a8f23740] Parsed port: 8080
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a8f23740] Server listening on port 8080
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a67fb6c0] Received request from 127.0.0.1:37212
+[2025-05-30 23:38:04] [debug] [Thread 0x000078f3a67fb6c0] Parsed request, routing...
+[2025-05-30 23:38:04] [error] [Thread 0x000078f3a67fb6c0] No handler found for path: /logout
+[2025-05-30 23:38:04] [debug] [Thread 0x000078f3a67fb6c0] Sending response with status code: 404
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a67fb6c0] [ResponseMetrics] code=404 path=/logout client=127.0.0.1 handler=None
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a67fb6c0] Successfully sent response to client.
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a4ff86c0] Received request from 127.0.0.1:37226
+[2025-05-30 23:38:04] [error] [Thread 0x000078f3a4ff86c0] Failed to parse HTTP request: Protocol error
+[2025-05-30 23:38:04] [debug] [Thread 0x000078f3a4ff86c0] Sending response with status code: 400
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a4ff86c0] [ResponseMetrics] code=400 path= client=127.0.0.1 handler=None
+[2025-05-30 23:38:04] [info] [Thread 0x000078f3a4ff86c0] Successfully sent response to client.

@@ -1,0 +1,10 @@
+[2025-05-31 23:58:55] [info] [Thread 0x000076b3f6e84740] Starting server...
+[2025-05-31 23:58:55] [info] [Thread 0x000076b3f6e84740] Parsed port: 8080
+[2025-05-31 23:58:55] [info] [Thread 0x000076b3f6e84740] Server listening on port 8080
+[2025-05-31 23:58:55] [info] [Thread 0x000076b3f37f96c0] Received request from 127.0.0.1:52630
+[2025-05-31 23:58:55] [debug] [Thread 0x000076b3f37f96c0] Parsed request, routing...
+[2025-05-31 23:58:55] [debug] [Thread 0x000076b3f37f96c0] Sending response with status code: 404
+[2025-05-31 23:58:55] [info] [Thread 0x000076b3f37f96c0] [ResponseMetrics] code=404 path=/wrong-path client=127.0.0.1 handler=NotFoundHandler
+[2025-05-31 23:58:55] [info] [Thread 0x000076b3f37f96c0] Successfully sent response to client.
+[2025-05-31 23:58:55] [info] [Thread 0x000076b3f2ff86c0] Received request from 127.0.0.1:52640
+[2025-05-31 23:58:55] [debug] [Thread 0x000076b3f2ff86c0] Parsed request, routing...

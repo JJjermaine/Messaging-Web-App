@@ -1,0 +1,23 @@
+[2025-06-01 21:58:24] [info] [Thread 0x000070380d31b740] Starting server...
+[2025-06-01 21:58:24] [info] [Thread 0x000070380d31b740] Parsed port: 8080
+[2025-06-01 21:58:24] [info] [Thread 0x000070380d31b740] Server listening on port 8080
+[2025-06-01 21:58:24] [info] [Thread 0x000070380abfb6c0] Received request from 127.0.0.1:46116
+[2025-06-01 21:58:24] [debug] [Thread 0x000070380abfb6c0] Parsed request, routing...
+[2025-06-01 21:58:24] [info] [Thread 0x000070380abfb6c0] RegisterHandler using user DB: ../data/users.json
+[2025-06-01 21:58:24] [debug] [Thread 0x000070380abfb6c0] Checking username in file: ../data/users.json
+[2025-06-01 21:58:25] [debug] [Thread 0x000070380abfb6c0] Sending response with status code: 200
+[2025-06-01 21:58:25] [info] [Thread 0x000070380abfb6c0] [ResponseMetrics] code=200 path=/register client=127.0.0.1 handler=RegisterHandler
+[2025-06-01 21:58:25] [info] [Thread 0x000070380abfb6c0] Successfully sent response to client.
+[2025-06-01 21:58:25] [info] [Thread 0x000070380abfb6c0] Received request from 127.0.0.1:46118
+[2025-06-01 21:58:25] [debug] [Thread 0x000070380abfb6c0] Parsed request, routing...
+[2025-06-01 21:58:25] [info] [Thread 0x000070380abfb6c0] RegisterHandler using user DB: ../data/users.json
+[2025-06-01 21:58:25] [debug] [Thread 0x000070380abfb6c0] Checking username in file: ../data/users.json
+[2025-06-01 21:58:25] [debug] [Thread 0x000070380abfb6c0] Sending response with status code: 400
+[2025-06-01 21:58:25] [info] [Thread 0x000070380abfb6c0] [ResponseMetrics] code=400 path=/register client=127.0.0.1 handler=RegisterHandler
+[2025-06-01 21:58:25] [info] [Thread 0x000070380abfb6c0] Successfully sent response to client.
+[2025-06-01 21:58:25] [info] [Thread 0x000070380a3fa6c0] Received request from 127.0.0.1:46132
+[2025-06-01 21:58:25] [debug] [Thread 0x000070380a3fa6c0] Parsed request, routing...
+[2025-06-01 21:58:25] [info] [Thread 0x000070380a3fa6c0] RegisterHandler using user DB: ../data/users.json
+[2025-06-01 21:58:25] [debug] [Thread 0x000070380a3fa6c0] Sending response with status code: 400
+[2025-06-01 21:58:25] [info] [Thread 0x000070380a3fa6c0] [ResponseMetrics] code=400 path=/register client=127.0.0.1 handler=RegisterHandler
+[2025-06-01 21:58:25] [info] [Thread 0x000070380a3fa6c0] Successfully sent response to client.

@@ -1,0 +1,7 @@
+[2025-05-04 01:14:48] [info] [Thread 0x00007f3913c1e740] Starting server...
+[2025-05-04 01:14:48] [info] [Thread 0x00007f3913c1e740] Parsed port: 8080
+[2025-05-04 01:14:48] [info] [Thread 0x00007f3913c1e740] Server listening on port 8080
+[2025-05-04 01:14:49] [info] [Thread 0x00007f3913c1e740] Received request from 127.0.0.1:38304
+[2025-05-04 01:14:49] [debug] [Thread 0x00007f3913c1e740] Parsed request, routing...
+[2025-05-04 01:14:49] [debug] [Thread 0x00007f3913c1e740] Sending response with status code: 200
+[2025-05-04 01:14:49] [info] [Thread 0x00007f3913c1e740] Successfully sent response to client.

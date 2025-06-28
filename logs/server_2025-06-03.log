@@ -1,0 +1,52 @@
+[2025-06-03 23:45:05] [info] [Thread 0x00007e1be26a1740] Starting server...
+[2025-06-03 23:45:05] [info] [Thread 0x00007e1be26a1740] Parsed port: 8080
+[2025-06-03 23:45:05] [info] [Thread 0x00007e1be26a1740] Server listening on port 8080
+[2025-06-03 23:45:08] [info] [Thread 0x00007e1bdeff96c0] Received request from 127.0.0.1:37464
+[2025-06-03 23:45:08] [debug] [Thread 0x00007e1bdeff96c0] Parsed request, routing...
+[2025-06-03 23:45:08] [debug] [Thread 0x00007e1bdeff96c0] Sending response with status code: 200
+[2025-06-03 23:45:08] [info] [Thread 0x00007e1bdeff96c0] [ResponseMetrics] code=200 path=/static1/index.html client=127.0.0.1 handler=StaticHandler
+[2025-06-03 23:45:08] [info] [Thread 0x00007e1bdeff96c0] Successfully sent response to client.
+[2025-06-03 23:45:08] [info] [Thread 0x00007e1bdfffb6c0] Received request from 127.0.0.1:37474
+[2025-06-03 23:45:08] [debug] [Thread 0x00007e1bdfffb6c0] Parsed request, routing...
+[2025-06-03 23:45:08] [debug] [Thread 0x00007e1bdfffb6c0] Sending response with status code: 200
+[2025-06-03 23:45:08] [info] [Thread 0x00007e1bdfffb6c0] [ResponseMetrics] code=200 path=/static1/UCLA_Bruins_script.svg.png client=127.0.0.1 handler=StaticHandler
+[2025-06-03 23:45:08] [info] [Thread 0x00007e1bdfffb6c0] Successfully sent response to client.
+[2025-06-03 23:45:11] [info] [Thread 0x00007e1bdf7fa6c0] Received request from 127.0.0.1:37490
+[2025-06-03 23:45:11] [debug] [Thread 0x00007e1bdf7fa6c0] Parsed request, routing...
+[2025-06-03 23:45:11] [info] [Thread 0x00007e1bdf7fa6c0] LoginHandler using user DB: ../data/users.json
+[2025-06-03 23:45:11] [debug] [Thread 0x00007e1bdf7fa6c0] Checking credentials in file: ../data/users.json
+[2025-06-03 23:45:11] [info] [Thread 0x00007e1bdf7fa6c0] Created new session for user hi
+[2025-06-03 23:45:11] [debug] [Thread 0x00007e1bdf7fa6c0] Sending response with status code: 200
+[2025-06-03 23:45:11] [info] [Thread 0x00007e1bdf7fa6c0] [ResponseMetrics] code=200 path=/login client=127.0.0.1 handler=SessionMiddlewareHandler
+[2025-06-03 23:45:11] [info] [Thread 0x00007e1bdf7fa6c0] Successfully sent response to client.
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bde7f86c0] Received request from 127.0.0.1:37506
+[2025-06-03 23:45:12] [debug] [Thread 0x00007e1bde7f86c0] Parsed request, routing...
+[2025-06-03 23:45:12] [debug] [Thread 0x00007e1bde7f86c0] Sending response with status code: 200
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bde7f86c0] [ResponseMetrics] code=200 path=/static1/messages.html client=127.0.0.1 handler=StaticHandler
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bde7f86c0] Successfully sent response to client.
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bdeff96c0] Received request from 127.0.0.1:37508
+[2025-06-03 23:45:12] [debug] [Thread 0x00007e1bdeff96c0] Parsed request, routing...
+[2025-06-03 23:45:12] [debug] [Thread 0x00007e1bdeff96c0] Sending response with status code: 200
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bdeff96c0] [ResponseMetrics] code=200 path=/messages/get client=127.0.0.1 handler=SessionMiddlewareHandler
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bdeff96c0] Successfully sent response to client.
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bde7f86c0] Received request from 127.0.0.1:37510
+[2025-06-03 23:45:12] [debug] [Thread 0x00007e1bde7f86c0] Parsed request, routing...
+[2025-06-03 23:45:12] [debug] [Thread 0x00007e1bde7f86c0] Sending response with status code: 200
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bde7f86c0] [ResponseMetrics] code=200 path=/static1/message_board_ucla2.png client=127.0.0.1 handler=StaticHandler
+[2025-06-03 23:45:12] [info] [Thread 0x00007e1bde7f86c0] Successfully sent response to client.
+[2025-06-03 23:45:14] [info] [Thread 0x00007e1bdeff96c0] Received request from 127.0.0.1:37522
+[2025-06-03 23:45:14] [debug] [Thread 0x00007e1bdeff96c0] Parsed request, routing...
+[2025-06-03 23:45:14] [info] [Thread 0x00007e1bdeff96c0] Invalidated session 3c10882a6790dbe2b1cd2bccc2bcbd3f
+[2025-06-03 23:45:14] [debug] [Thread 0x00007e1bdeff96c0] Sending response with status code: 200
+[2025-06-03 23:45:14] [info] [Thread 0x00007e1bdeff96c0] [ResponseMetrics] code=200 path=/logout client=127.0.0.1 handler=SessionMiddlewareHandler
+[2025-06-03 23:45:14] [info] [Thread 0x00007e1bdeff96c0] Successfully sent response to client.
+[2025-06-03 23:45:14] [info] [Thread 0x00007e1bde7f86c0] Received request from 127.0.0.1:37538
+[2025-06-03 23:45:14] [debug] [Thread 0x00007e1bde7f86c0] Parsed request, routing...
+[2025-06-03 23:45:14] [debug] [Thread 0x00007e1bde7f86c0] Sending response with status code: 200
+[2025-06-03 23:45:14] [info] [Thread 0x00007e1bde7f86c0] [ResponseMetrics] code=200 path=/static1/index.html client=127.0.0.1 handler=StaticHandler
+[2025-06-03 23:45:14] [info] [Thread 0x00007e1bde7f86c0] Successfully sent response to client.
+[2025-06-03 23:45:15] [info] [Thread 0x00007e1bde7f86c0] Received request from 127.0.0.1:37548
+[2025-06-03 23:45:15] [debug] [Thread 0x00007e1bde7f86c0] Parsed request, routing...
+[2025-06-03 23:45:15] [debug] [Thread 0x00007e1bde7f86c0] Sending response with status code: 200
+[2025-06-03 23:45:15] [info] [Thread 0x00007e1bde7f86c0] [ResponseMetrics] code=200 path=/static1/UCLA_Bruins_script.svg.png client=127.0.0.1 handler=StaticHandler
+[2025-06-03 23:45:15] [info] [Thread 0x00007e1bde7f86c0] Successfully sent response to client.

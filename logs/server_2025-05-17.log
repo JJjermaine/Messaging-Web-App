@@ -1,0 +1,7 @@
+[2025-05-17 21:00:25] [info] [Thread 0x00007f1bce356740] Starting server...
+[2025-05-17 21:00:25] [info] [Thread 0x00007f1bce356740] Parsed port: 8080
+[2025-05-17 21:00:25] [info] [Thread 0x00007f1bce356740] Server listening on port 8080
+[2025-05-17 21:00:25] [info] [Thread 0x00007f1bce356740] Received request from 127.0.0.1:54278
+[2025-05-17 21:00:25] [debug] [Thread 0x00007f1bce356740] Parsed request, routing...
+[2025-05-17 21:00:25] [debug] [Thread 0x00007f1bce356740] Sending response with status code: 404
+[2025-05-17 21:00:25] [info] [Thread 0x00007f1bce356740] Successfully sent response to client.

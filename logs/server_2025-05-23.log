@@ -1,0 +1,12 @@
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] Starting server...
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] Parsed port: 8080
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] Server listening on port 8080
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] Received request from 127.0.0.1:52854
+[2025-05-23 16:25:35] [debug] [Thread 0x00007f196b159740] Parsed request, routing...
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] [ResponseMetrics] code=200 path=/health client=127.0.0.1 handler=HealthHandler
+[2025-05-23 16:25:35] [debug] [Thread 0x00007f196b159740] Sending response with status code: 200
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] Successfully sent response to client.
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] Received request from 127.0.0.1:52868
+[2025-05-23 16:25:35] [error] [Thread 0x00007f196b159740] Failed to parse HTTP request: Protocol error
+[2025-05-23 16:25:35] [debug] [Thread 0x00007f196b159740] Sending response with status code: 400
+[2025-05-23 16:25:35] [info] [Thread 0x00007f196b159740] Successfully sent response to client.
