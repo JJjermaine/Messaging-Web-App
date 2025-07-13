@@ -1,3 +1,7 @@
+# Details found here
+
+https://code.cs130.org/plugins/gitiles/name-not-found-404
+
 # Code Layout
 * server_main.cc
 
